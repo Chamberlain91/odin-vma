@@ -1,7 +1,5 @@
 package vma
 
-import c "core:c"
-
 AllocatorCreateFlags :: distinct bit_set[AllocatorCreateFlagBit;u32]
 
 AllocatorCreateFlagBit :: enum u32 {
