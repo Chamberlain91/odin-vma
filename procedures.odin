@@ -19,7 +19,7 @@ PFN_vmaFreeDeviceMemoryFunction :: proc "c" (
 )
 
 when ODIN_OS == .Linux || ODIN_OS == .Darwin {
-	@(require) foreign import stdcpp "system:c++"
+	@(require) foreign import stdcpp "system:stdc++"
 }
 
 when ODIN_OS == .Windows { 
